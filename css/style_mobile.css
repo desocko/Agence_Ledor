@@ -1,0 +1,80 @@
+.title{
+    text-align: center;
+}
+
+/*vp et header*/
+
+header {
+    flex-direction: column;
+}
+
+header ul {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+header ul li {
+    padding: 1rem;
+    border-bottom: 1px dotted #555;
+}
+
+
+.vp-logo {
+    margin-left: 2rem;
+} 
+
+.vp-content h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.vp-content p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*offer*/
+
+.offer {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.offer-list {
+    flex-direction: column;
+}
+
+/*personnel*/
+
+.personnel {
+    flex-direction: column-reverse;
+}
+
+/*avis*/
+
+.avis-elem {
+    flex-direction: column;
+}
+
+.avis-elem-reverse {
+    flex-direction: column-reverse;
+}
+
+.avis-elem-text {
+    text-align: center;
+}
+
+.avis-elem-profil img {
+    margin: auto;
+}
+
+.avis-elem-profil {
+    text-align: center;
+}
+
+/*contact*/
+
+.contact-form input {
+    padding: 1rem 1.8rem;
+}
